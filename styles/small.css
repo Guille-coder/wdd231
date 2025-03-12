@@ -1,0 +1,164 @@
+body {
+    font-family: 'julee', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #A6A6A6;
+    padding: 20px 10px;
+}
+
+header img {
+    width: 100px;
+    height: 115px;
+    border-radius: 20%;
+}
+
+h1, h2, h3 {
+    font-family: 'julee', serif;
+}
+/* Navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+	background-color:#E1C095;
+	color: black;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.navigation a:hover {
+	background-color: #EEEEEE;
+	color: #333;
+	font-weight: 700;
+}
+.open a {
+	display: block;
+}
+
+.active::before { 
+	content: "◾";
+}
+
+
+/* Main Content Wrapper */
+.main-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+    padding: 15px;
+    width:550px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Certificate Section */
+.certificate {
+    background-color: #E1C095;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.filters li {
+    padding: 10px;
+    border: none;
+    background-color: #A6A6A6;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.filters li:hover {
+    background-color: #444;
+}
+
+/* Course Grid */
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.course {
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cse {
+    background-color: brown;
+}
+
+.wdd {
+    background-color: #767272;
+}
+
+/* Footer */
+footer {
+    background-color: #A6A6A6;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
