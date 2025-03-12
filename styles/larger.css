@@ -13,12 +13,14 @@
 	}
 
     .completed {
-        background-color: saddlebrown;
-        border-left: 5px solid #e0e0e0;
+        padding: 8px;
+        background: brown; 
+        border: 1px solid black;
     }
 
     .incomplete {
-        background-color: #8b1313;
-        border-left: 5px solid #e0e0e0;
+        padding: 8px;
+        background-color: white;
+        border: 1px solid black;
     }
 }

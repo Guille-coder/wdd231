@@ -127,7 +127,8 @@ h1, h2, h3 {
 }
 
 .filters li:hover {
-    background-color: #444;
+    background-color: white;
+
 }
 
 /* Course Grid */
@@ -145,13 +146,13 @@ h1, h2, h3 {
     border-radius: 5px;
 }
 
-.cse {
+/* .cse {
     background-color: brown;
 }
 
 .wdd {
     background-color: #767272;
-}
+} */
 
 /* Footer */
 footer {
