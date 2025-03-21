@@ -10,7 +10,7 @@
     <meta property="og:image" content="world.ico">
     <meta property="og:url" content="https://example.com/directory.html">
     <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/styles-small.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/directory.js" defer></script>
@@ -32,12 +32,12 @@
             </nav>
         </div>
     </header>
-    <section class="hero">
-        <h2>Welcome to Piura Chamber of Commerce</h2>
-        <button class="hero-button">Keynote Tickets</button>
-    </section>
     <main>
-        <section class="info-grid">
+        <div class="hero">
+            <h2>Welcome to Piura Chamber of Commerce</h2>
+            <button class="hero-button">Keynote Tickets</button>
+        </div>
+        <div class="info-grid">
             <article class="events">
                 <h2>Events</h2>
                 <p>Upcoming events and announcements.</p>
@@ -55,13 +55,13 @@
                 <p>Wednesday: 79°F</p>
                 <p>Thursday: 58°F</p>
             </article>
-        </section>
+        </div>
         <div class="first-object">
             <button class="toggleView" id="toggleView">Toggle Grid/List View</button>
         </div>
-        <section id="members" class="grid-view">
+        <div id="members" class="grid-view">
 
-        </section>
+        </div>
     </main>
     <footer>
         <p>Piura Chamber of Commerce</p>
