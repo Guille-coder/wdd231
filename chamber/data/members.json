@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Tech Innovadores Piura",
+        "address": "Av. Arequipa 1234, Piura",
+        "phone": "+51 987 654 321",
+        "website": "https://techinnovsdores.com",
+        "image": "tech.png",
+        "membership": 3
+    },
+    {
+        "name": "Marketing Digital",
+        "address": "Cusco 456, Piura",
+        "phone": "+51 956 123 456",
+        "website": "https://marketing.com",
+        "image": "marketing.svg",
+        "membership": 1
+    },
+    {
+        "name": "Ecoverde Piura",
+        "address": "Calle los Bosques 789, Arequipa",
+        "phone": "+51 944 567 243",
+        "website": "https://ecoverde.com",
+        "image": "ecoverde.svg",
+        "membership": 3
+    },
+    {
+        "name": "Inca SAC",
+        "address": "Av. LOS INCAS 321, Trujillo",
+        "phone": "+51 987 345 967",
+        "website": "https://inca.com",
+        "image": "inca.svg",
+        "membership": 2
+    },
+    {
+        "name": "Turismo Andino",
+        "address": "Plaza de armas 12, Piura",
+        "phone": "+51 968 431 587",
+        "website": "https://turismoandino.com",
+        "image": "turismo.svg",
+        "membership": 3
+    },
+    {
+        "name": "AgroExport",
+        "address": "Pnamericana Sur, Piura",
+        "phone": "+51 995 886 476",
+        "website": "https://AgroExport.com",
+        "image": "agro.svg",
+        "membership": 2
+    },
+    {
+        "name": "Textiles Alpa",
+        "address": "Av. Piura 345, Piura",
+        "phone": "+51 987 789 456",
+        "website": "https://textilesalpa.com",
+        "image": "textiles.svg",
+        "membership": 3
+    }
+]
