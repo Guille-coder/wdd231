@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("menu-toggle");
-    const navMenu = document.getElementById("nav-menu");
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
 
-    menuToggle.addEventListener("click", function () {
-        navMenu.classList.toggle("active");
-    });
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
 });
