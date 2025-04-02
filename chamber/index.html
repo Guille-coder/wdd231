@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="course home page ">
     <meta name="author" content="Guillermo Aguirre">
-    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:title" content="Chamber of Commerce Home">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://guille-coder.github.io/wdd231/chamber/images/piura.webp">
     <meta property="og:url" content="https://guille-coder.github.io/wdd231/chamber/directory.html">
@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
-    <title>Piura Chamber of Commerce Directory</title>
+    <script src="scripts/weather.js" defer></script>
+    <title>Piura Chamber of Commerce</title>
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
@@ -36,11 +36,32 @@
         
     </header>
     <main>
-        <!-- <div class="hero">
-            <h1>Welcome to Piura Chamber of Commerce Business Directory</h1>
-            <button class="hero-button">Keynote Tickets</button>
-        </div> -->
-        <div class="view-toggle">
+        <div class="hero">
+            <img src="images/heropiura.webp" alt="Piura">
+            <button class="hero-button">Join the Chamber</button>
+        </div>
+        <h1>Welcome to Piura Chamber of Commerce Business Directory</h1>
+        <div class="info-grid">
+            <article class="events">
+                <h2>Events</h2>
+                <p>Upcoming events and announcements.</p>
+            </article>
+            <article class="weather">
+                <div class="section weather">
+                    <h2>Current Weather</h2>
+                    <div id="weather-info"></div>
+                </div>               
+            </article>
+            <article class="forecast">
+                <div class="section forecast">
+                    <h2>Weather Forecast</h2>
+                    <div id="forecast-info"></div>
+                </div>
+            </article>
+        </div>
+        
+
+        <!-- <div class="view-toggle">
             <button id="grid-view" aria-label="Switch to grid view">Grid</button>
             <button id="list-view" aria-label="Switch to list view">List</button>
         </div>
@@ -48,6 +69,13 @@
         <section class="members-container">
             <h2>Featured Members</h2>
             <div id="members-list" class="grid-view">
+            </div>
+        </section> -->
+        <section>
+            <div class="members-container">     
+                <div id="memberCards">
+
+                </div>
             </div>
         </section>
     </main>
