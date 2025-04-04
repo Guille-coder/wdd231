@@ -21,18 +21,19 @@
     <header>
         <div class="header-container">
             <img src="images/logo.svg" alt="Piura Chamber of Commerce" class="logo">
-            <h2>Piura Chamber of Commerce Business Directory</h2>
+            <h2>Piura Chamber of Commerce Business </h2>
            
         </div>
-        <button type="button" id="menu">&#9776;</button>
         <nav>
-	        <ul class="navigation">
-		        <li><a href="index.html">Home</a></li>
-		        <li><a href="directory.html">Directory</a></li>
-		        <li><a href="#">Join</a></li>
-		        <li><a href="#">Discover</a></li>
-	        </ul>
-        </nav>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+            <div id="overlay" onclick="toggleMenu()"></div>
+            <ul id="navMenu" class="slide-out">
+                <li><a href="index.html">Home<span class="dot"></span></a></li>
+                <li><a href="directory.html" class="active">Directory<span class="dot"></span></a></li>
+                <li><a href="#">Join<span class="dot"></span></a></li>
+                <li><a href="#">Discover<span class="dot"></span></a></li>
+            </ul>
+        </nav> 
         
     </header>
     <main>
@@ -40,7 +41,7 @@
             <img src="images/heropiura.webp" alt="Piura">
             <button class="hero-button">Join the Chamber</button>
         </div>
-        <h1>Welcome to Piura Chamber of Commerce Business Directory</h1>
+        <h1>Welcome to Piura Chamber of Commerce</h1>
         <div class="info-grid">
             <article class="events">
                 <h2>Events</h2>
@@ -71,6 +72,11 @@
             <div id="members-list" class="grid-view">
             </div>
         </section> -->
+
+
+        <!-- <img src="${day.day.condition.icon}" alt="Forecast Icon"> -->
+        <!-- <img src="${data.current.condition.icon}" alt="Weather Icon"> -->
+
         <section>
             <div class="members-container">     
                 <div id="memberCards">
