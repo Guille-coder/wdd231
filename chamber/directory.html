@@ -24,15 +24,17 @@
             <h2>Piura Chamber of Commerce Business Directory</h2>
            
         </div>
-        <button type="button" id="menu">&#9776;</button>
         <nav>
-	        <ul class="navigation">
-		        <li><a href="index.html">Home</a></li>
-		        <li><a href="directory.html">Directory</a></li>
-		        <li><a href="#">Join</a></li>
-		        <li><a href="#">Discover</a></li>
-	        </ul>
-        </nav>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+            <div id="overlay" onclick="toggleMenu()"></div>
+            <ul id="navMenu" class="slide-out">
+                <li><a href="index.html">Home<span class="dot"></span></a></li>
+                <li><a href="directory.html" class="active">Directory<span class="dot"></span></a></li>
+                <li><a href="#">Join<span class="dot"></span></a></li>
+                <li><a href="#">Discover<span class="dot"></span></a></li>
+            </ul>
+        </nav> 
+        
         
     </header>
     <main>
