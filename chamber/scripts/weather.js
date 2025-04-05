@@ -111,7 +111,6 @@ function displayMembers(members) {
                 <div>
                     <p><span>Address:</span> ${member.address}</p>
                     <p><span>Phone:</span> ${member.phone}</p>
-                    <p><span>Email:</span> ${member.email}</p>
                     <a href="${member.website}" target="_blank">Visit Website</a>
                 </div>
             </div>

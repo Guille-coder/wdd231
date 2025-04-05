@@ -9,6 +9,8 @@ body {
     line-height: 1.6;
 }
 
+/* header */
+
 header {
     background-color: #1A1A1A;
     color: white;
@@ -26,72 +28,58 @@ header {
     height: 60px;
     margin-right: 1rem;
 }
-.hamburger {
-    cursor: pointer;
-    font-size: 20px;
-    color: #ffffff;
-    position: relative;
-    z-index: 1001;
+
+/* MENU */
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+a:hover {
+    border-bottom: 2px solid white;
+}
+#navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
 }
 
-/* Overlay Styling */
-#overlay {
-    position: fixed;
+.active-page {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.theme-toggle {
+    width: 24px;
+    height: 24px;
+    background: #fff; 
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-toggle::after {
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0);
-    display: none;
-    z-index: 999;
-    transition: background-color 0.3s ease-in-out; /* Smooth fade */
-}
-
-.show {
-    display: block;
-}
-
-/* Navigation Menu */
-#navMenu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 200px;
+    width: 50%;
     height: 100%;
-    transition: transform 0.3s ease-in-out;
-    z-index: 1000;
+    background: #333;
 }
 
-#navMenu.slide-in {
-    transform: translateX(-100%);
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 
-#navMenu li {
-    list-style: none;
-    margin: 10px;
-}
 
-#navMenu li a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px;
-}
-
-nav {
-    margin-left: auto;
-}
-
-nav a:hover {
-    background-color: #ffffff33;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+/* MAIN */
 
 h1{
     text-align: center;
@@ -106,8 +94,6 @@ h1{
     text-align: center;
     margin-bottom: 3rem;
 }
-
-
 .hero-button {
     position: absolute;
     bottom: 30%;
@@ -254,6 +240,19 @@ article {
 .member.list:hover{
     transform: scale(1.02); 
 }
+#memberCards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+#memberCards img{
+    width: 150px;
+    height: auto;
+} 
+.member-card a {
+    text-decoration: underline;
+}   
 
 
 footer {
@@ -277,29 +276,69 @@ footer {
     opacity: 0.8;
 }
 
-@media (min-width: 601px) {
+@media (max-width: 768px) {
 
-    header {
+    /* header {
         flex-direction: row;
         justify-content: space-between;
         padding: 1rem 2rem;
+    } */
+
+    #navigation {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 95px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #1A1A1A;
+        text-align: center;
+        z-index: 1000;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out; 
+        opacity: 0; 
+        pointer-events: none; 
     }
 
-    nav ul {
-        flex-direction: row;
+    #navigation.active {
+        transform: translateY(0); 
+        opacity: 1; 
+        pointer-events: auto; 
     }
 
+    #navigation ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #navigation ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .mobile-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 10px;
+        background: none;
+        border: none;
+    }
+    
 	
     #memberCards{
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        
     }
-    #memberCards img{
-        width: 150px;
-        height: auto;
+    .member-card{
+        margin-top: 30px;
     }
+     
     
     
 }
-
