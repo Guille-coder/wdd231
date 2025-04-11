@@ -1,11 +1,11 @@
 /* normalize.css - CSS reset */
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
 
 body {
     margin: 0;
@@ -26,7 +26,7 @@ ol {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;  
 }
 
 img {

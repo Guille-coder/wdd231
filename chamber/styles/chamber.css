@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #1A1A1A;
-    color: white;
+    color: #fff;
     padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -36,8 +36,9 @@ header {
     justify-content: center;
     width: 100vw;
 }
+
 a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #E1C095;
 }
 #navigation ul {
     list-style: none;
@@ -46,11 +47,12 @@ a:hover {
 }
 
 .active-page {
-    background: white; 
-    color: #000;
+    border-bottom: 4px solid #E1C095;
+    /* background-color: white;
+    color: black;
     padding: 10px;
-    border-radius: 3px;
-}
+    border-radius: 3px; */
+}  
 
 .theme-toggle {
     width: 24px;
@@ -254,6 +256,7 @@ article {
     text-decoration: underline;
 }   
 /* jOIN PAGE */
+
 .heading{
     text-align: center;
     margin-top: 15px;
@@ -297,7 +300,7 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-    background: #333;
+    background: white;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -392,7 +395,6 @@ textarea:valid {
     align-items: center;
     margin-bottom: 1rem;
     opacity: 0;
-    /* background-color: blue; */
     border-radius:8px;
     border-left: 4px solid #000;
     animation: fadeSlideIn 0.8s ease forwards;
@@ -437,7 +439,6 @@ textarea:valid {
 
 .learn-more {
     background-color: white; 
-    /* color: var(--primary-color); */
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
     border: 1px solid #000;
@@ -528,7 +529,6 @@ textarea:valid {
     color: white;
 }
 
-    
 
 /* FOOTER */
 footer {
