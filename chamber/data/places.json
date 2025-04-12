@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Machu Picchu",
+        "address": "Roxas Blvd, Ermita, Manila",
+        "description": "An ancient Inca citadel located high in the Andes. It’s a UNESCO World Heritage Site and one of the New Seven Wonders of the World.",
+        "image": "images/machupichu.webp"
+    },
+    {
+        "name": "Lake Titicaca",
+        "address": "Border between Puno (Peru) and Bolivia",
+        "description": "The highest navigable lake in the world, home to the Uros people, who live on floating islands made of reeds.",
+        "image": "images/laketitikaka.webp"
+    },
+    {
+        "name": "Cusco",
+        "address": "Cusco City, Southern Andes",
+        "description": " Former capital of the Inca Empire. It retains a blend of Inca and colonial architecture, including Plaza de Armas and the Temple of the Sun",
+        "image": "images/cusco.webp"
+    },
+    {
+        "name": " Nazca Lines ",
+        "address": "Nazca Desert, Ica Region",
+        "description": "Mysterious geoglyphs carved into the desert floor, best viewed from the air. They are believed to have astronomical or religious significance.",
+        "image": "images/linesofnazca.webp"
+    },
+    {
+        "name": "Arequipa and Colca Canyon",
+        "address": "Arequipa Region",
+        "description": "A colonial city made from white volcanic stone. Nearby is the Colca Canyon, one of the deepest canyons in the world, home to the Andean condor.",
+        "image": "images/colca.webp"
+    },
+    {
+        "name": "Paracas and Ballestas Islands",
+        "address": "Ica Region, Southern Coast of Peru",
+        "description": "A marine reserve home to diverse wildlife such as sea lions, Humboldt penguins, and many bird species. The Ballestas Islands are often called The Galápagos of Peru.",
+        "image": "images/paracas.webp"
+    },
+    {
+        "name": "Huacachina",
+        "address": "Ica, 5 km from the city of Ica",
+        "description": "A desert oasis surrounded by towering sand dunes. It's a popular spot for sandboarding and buggy rides, offering a unique desert experience.",
+        "image": "images/huacachina.webp"
+    },
+    {
+        "name": "Amazon - Pacaya Samiria National Reserve ",
+        "address": "Loreto Region, Northern Amazon",
+        "description": "The second-largest protected area in Peru, rich in biodiversity, home to pink dolphins, caimans, and an array of exotic birds and plants.",
+        "image": "images/amazon.webp"
+    }
+]
