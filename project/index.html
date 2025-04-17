@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="index of my project">
+    <meta name="author" content="Guillermo Aguirre">
+    <meta property="og:title" content="Discovering the wonders of Peru">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://guille-coder.github.io/wdd231/project/images/banner-turismo.webp">
+    <meta property="og:url" content="https://guille-coder.github.io/wdd231/project/index.html">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/place-index.js" defer></script>
+    <script src="scripts/toggleoscuro.js" defer></script>
+    <script src="scripts/navigation.js" type="module"></script>
+    <title>Home | Discover Peru</title>
+    <link rel="icon" href="images/logoperu.webp">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
 
+        <nav class="navbar">
+            <div class="logo"><img src="images/logoperu.webp" loading="lazy" alt="logo"></div>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="trips.html">Trips</a>
+                <a href="join.html">Join</a>
+            </div>
+            <div ><button class="theme-toggle" onclick="toggleModoOscuro()"></button></div>
+        </nav>
+    
+        
+    <main>
+        <div class="hero" >
+            <h1>Peru, <span id="typed"></span></h1>
+            <img src="images/banner-turismo.webp" loading="lazy" alt="Paisaje de Perú">
+        </div>
+        <section class="fact">
+            <h2>🌎 Interesting Fact about Peru</h2>
+            <div id="fact">Click to discover an interesting fact about Peru</div>
+            <button onclick="showFact()">Show another fact</button>
+        </section>
+        <h2 class="title">Discovering the wonders of Peru</h2>
+        
+        <div id="clima"></div>
+        
+        <section class="container">
+            <h3>Subscribe to our forum and receive the latest news about our trips.<br> This could be your time to travel!!</h3>
+            <div class="containerform">
+                <form id="format">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <button type="submit">Subscribe me now</button>
+                </form>
+                <p id="mensaje"></p>
+                <button id="borrar" class="hidden">Cancel subscription</button>
+            </div>
+        </section>
+
+    
+    </main>
+
+    <footer>
+        
+        <h4>Follow us and be the first to know about news and get updates, new releases and special offers.</h4>
+        <div class="social">
+            <nav>
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook.webp" alt="Facebook" loading="lazy">
+                </a>
+                <a href="https://www.instagran.com/">
+                    <img src="images/instagram.webp" alt="Instagran" loading="lazy">
+                </a>
+                <a href="https://www.twiter.com/">
+                    <img src="images/gorjeo.webp" alt="Twiter" loading="lazy">
+                </a>
+            </nav>
+        </div>
+        <p>©2025 | WDD231 | Guillermo Aguirre </p>
+
+    </footer>
+   
+</body>
+</html>

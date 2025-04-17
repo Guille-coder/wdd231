@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="index of my project">
+    <meta name="author" content="Guillermo Aguirre">
+    <meta property="og:title" content="join to discover wonders of Peru">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://guille-coder.github.io/wdd231/project/images/banner-turismo.webp">
+    <meta property="og:url" content="https://guille-coder.github.io/wdd231/project/join.html">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/navigation.js" type="module"></script>
+    <script src="scripts/toggleoscuro.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <title>join | Discover Peru</title>
+    <link rel="icon" href="images/logoperu.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logoperu.webp" loading="lazy" alt="logo"></div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="trips.html">Trips</a>
+            <a href="join.html"  class="active">Join</a>
+        </div>
+        <div ><button class="theme-toggle" onclick="toggleModoOscuro()"></button></div>
+    </nav>
+
+    <main class="main-form">
+         
+  <h1>Join the Adventure!</h1>
+
+  <form id="join-form">
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Why do you want to join us?</label>
+    <textarea id="message" name="message" rows="4" placeholder="Tell us more..."></textarea>
+
+    <label for="source">How did you find us? *</label>
+    <select id="source" name="source" required>
+      <option value="" disabled selected>Select an option</option>
+      <option value="social_media">Social Media</option>
+      <option value="search_engine">Search Engine</option>
+      <option value="friend">A Friend</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="interests">What places in Peru interest you?</label>
+    <input type="text" id="interests" name="interests" placeholder="e.g. Machu Picchu, Arequipa..." />
+
+    <label>
+      <input type="checkbox" id="newsletter" name="newsletter" />
+      I want to receive news and updates
+    </label>
+
+    <button type="submit">Join Now</button>
+  </form>
+
+  <h2>Recent Submissions:</h2>
+  <ul id="submissions-list"></ul>
+    </main>
+    
+    <footer>
+        
+        <h3>Follow us and be the first to know about news and get updates, new releases and special offers.</h3>
+        <div class="social">
+            <nav>
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook.webp" alt="Facebook" loading="lazy">
+                </a>
+                <a href="https://www.instagran.com/">
+                    <img src="images/instagram.webp" alt="Instagran" loading="lazy">
+                </a>
+                <a href="https://www.twiter.com/">
+                    <img src="images/gorjeo.webp" alt="Twiter" loading="lazy">
+                </a>
+            </nav>
+        </div>
+        <p>©2025 | WDD231 | Guillermo Aguirre </p>
+
+    </footer>
+   
+  
+
+</body>
+</html>

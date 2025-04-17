@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="index of my project">
+    <meta name="author" content="Guillermo Aguirre">
+    <meta property="og:title" content="Trips of Peru">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://guille-coder.github.io/wdd231/project/images/banner-turismo.webp">
+    <meta property="og:url" content="https://guille-coder.github.io/wdd231/project/trips.html">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/places.js" defer></script>
+    <script src="scripts/toggleoscuro.js" defer></script>
+    <script src="scripts/navigation.js" type="module"></script>
+    <title>Trips | Discover Peru</title>
+    <link rel="icon" href="images/logoperu.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logoperu.webp" loading="lazy" alt="logo"></div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" >Home</a>
+            <a href="trips.html" class="active">Trips</a>
+            <a href="join.html">Join</a>
+        </div>
+        <div ><button class="theme-toggle" onclick="toggleModoOscuro()"></button></div>
+    </nav>
+    <section class="all-places">
+        <h1>All Tourist Places</h1> 
+        <input type="text" id="search" placeholder="Search a place..." /> 
+
+    </section>
+    <main id="places-container"></main>
+
+    
+    <dialog id="details-dialog">
+        <div id="dialog-content"></div>
+        <button id="close-dialog" class="close-dialog">Close</button>
+    </dialog>
+    <footer>
+        
+        <h3>Follow us and be the first to know about news and get updates, new releases and special offers.</h3>
+        <div class="social">
+            <nav>
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook.webp" alt="Facebook" loading="lazy">
+                </a>
+                <a href="https://www.instagran.com/">
+                    <img src="images/instagram.webp" alt="Instagran" loading="lazy">
+                </a>
+                <a href="https://www.twiter.com/">
+                    <img src="images/gorjeo.webp" alt="Twiter" loading="lazy">
+                </a>
+            </nav>
+        </div>
+        <p>©2025 | WDD231 | Guillermo Aguirre </p>
+
+    </footer>
+   
+  
+
+</body>
+</html>

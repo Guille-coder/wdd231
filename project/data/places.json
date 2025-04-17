@@ -1,0 +1,68 @@
+{
+    "places": [
+      {
+        "place": "Machu Picchu",
+        "city": "Cusco",
+        "description": "An ancient Incan city located in the Andes mountains, famous for its archaeological significance and breathtaking scenery.",
+        "location": "Aguas Calientes, Cusco Region",
+        "attractions": ["Temple of the Sun", "Intihuatana", "Sacred Plaza"],
+        "image": "images/machupichu.webp"
+      },
+      {
+        "place": "Lake Titicaca",
+        "city": "Puno",
+        "description": "The highest navigable lake in the world, home to floating islands made by the Uros people.",
+        "location": "Puno Region",
+        "attractions": ["Uros Islands", "Taquile Island", "Sillustani Ruins"],
+        "image":"images/laketiticaca.webp"
+      },
+      {
+        "place": "Nazca Lines",
+        "city": "Nazca",
+        "description": "A group of large ancient geoglyphs in the Nazca Desert, visible only from the air.",
+        "location": "Nazca Desert, Ica Region",
+        "attractions": ["Monkey", "Hummingbird", "Astronaut"],
+        "image":"images/linesofnazca.webp"
+      },
+      {
+        "place": "Colca Canyon",
+        "city": "Arequipa",
+        "description": "One of the deepest canyons in the world, known for its scenic views and Andean condors.",
+        "location": "Arequipa Region",
+        "attractions": ["Condor Lookout", "Hot Springs", "Andean Villages"],
+        "image":"images/colca.webp"
+      },
+      {
+        "place": "Chan Chan",
+        "city": "Trujillo",
+        "description": "The largest adobe city in the Americas, once the capital of the Chimú civilization.",
+        "location": "La Libertad Region",
+        "attractions": ["Tschudi Palace", "Walls of Chan Chan", "Museum"],
+        "image": "images/chanchan.webp"
+      },
+      {
+        "place": "Huacachina",
+        "city": "Ica",
+        "description": "A desert oasis surrounded by sand dunes, perfect for sandboarding and dune buggy rides.",
+        "location": "Ica Region",
+        "attractions": ["Lagoon", "Sandboarding", "Dune Buggies"],
+        "image":"images/huacachina.webp"
+      },
+      {
+        "place": "Paracas National Reserve",
+        "city": "Paracas",
+        "description": "A coastal reserve rich in marine wildlife and desert landscapes.",
+        "location": "Ica Region",
+        "attractions": ["Ballestas Islands", "Red Beach", "Paracas Candelabra"],
+        "image": "images/paracas.webp"
+      },
+      {
+        "place": "Sacred Valley",
+        "city": "Urubamba",
+        "description": "A fertile valley once sacred to the Incas, full of archaeological sites and traditional villages.",
+        "location": "Cusco Region",
+        "attractions": ["Pisac Ruins", "Ollantaytambo", "Maras Salt Mines"],
+        "image": "images/sacred.webp"
+      }
+    ]
+  }
